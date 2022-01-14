@@ -1,0 +1,46 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@0;1&family=Lobster&family=Merriweather&family=Poppins:wght@500&family=Rubik:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+main{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 158.5px; */
+}
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+}
+.top-players-heading{
+    margin-bottom: 30px;
+    size: 24px;
+    color: #562EFF;
+}
+.top-players{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.player{
+    display: flex;
+align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player h3{
+    font-size: 18px;
+    margin-left: 16px;
+}
